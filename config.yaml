@@ -122,14 +122,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: archives
+      name: Archive
+      url: /archives/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: categories
+      name: Categories
+      url: /categories/
       weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
         # - identifier: Blog
         #   name: blog.wintercicada.xyz
         #   url: https://blog.wintercicada.xyz
