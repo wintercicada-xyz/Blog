@@ -19,7 +19,7 @@ params:
   title: WinterCicada's Blog
   description: "WinterCicada's Blog"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: WinterCicada
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -80,9 +80,9 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hello \U0001F917"
+    Title: "WinterCicada's Blog"
       # \U0001F44B"
-    Content: Welcome to my blog
+    Content: ""
 
   socialIcons:
     #- name: twitter
