@@ -123,7 +123,7 @@ params:
 menu:
   main:
     - identifier: archives
-      name: Archive
+      name: Archives
       url: /archives/
       weight: 10
     - identifier: categories
