@@ -151,17 +151,17 @@ sudo docker-compose up -d
 
 ### 使用及踩坑
 浏览器访问对应网站的界面如下：
-![登录界面](/images/login.png)
+![登录界面](/static/images/login.png)
 首先点击右下角按钮注册账号，注意主密码要足够长足够复杂，这一个密码是用来保护你其他所有密码的。
 
 
 然后登录进去：
-![主界面](/images/vault.png)
+![主界面](/static/images/vault.png)
 
 
 为了保障安全性，避免被暴力破解主密码，强烈建议在两步验证与 [Fail2Ban](https://github.com/dani-garcia/vaultwarden/wiki/Fail2Ban-Setup) 中二选一。
 这里只讲如何开启两步认证，想要开启 Fail2Ban 看上面链接自行配置。在登录进入网页后点击左上的设置然后在右边竖栏中选择两步认证，按你意愿选择合适的两步认证开启即可。
-![两步验证](/images/2FA.png)
+![两步验证](/static/images/2FA.png)
 
 
 还可以进行其他的配置来提高服务的隐蔽性并防止他人滥用，设置禁止其他用户注册，并关闭网页版的 Bitwarden，只需在 docker-compose.yml 中 `- DOMAIN=<YOUR DOMAIN>` 后追加以下内容：
